@@ -2,7 +2,7 @@ let heartSize = 100;
 let pulse = 0;
 let clicked = false;
 let heartPulse = 0;
-const messageText = "Even though we're miles apart, my heart beats for you every single day. You're my sunshine, my muse, and my everything. This little corner of the internet is for us—a place to celebrate our love. Click the heart above to feel my love, and scroll down for some memories we’ve made (and more to come)! 💖";
+const messageText = "HIii my BABYYY I hope you like this ji well the time rn is 6:56 AM June 21…and i wanna start with love You’re my baby my princess my world my little muse my snuggle bunny my everything ..okay love here’s a big kiss (click the heart) not happy here are a lot of more kisses (click the heart on the bottom right) HEEHHE this is nothing baby I wanna give you my everything meri jaan…I love you wifey this is a small gift from your bastard…(there’s more baby)";
 let stars = [];
 
 // Floating love notes
