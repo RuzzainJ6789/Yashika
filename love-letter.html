@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To My BABYYYYYYY</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      min-height: 100vh;
+      width: 100vw;
+      overflow: auto !important;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffe0ec 0%, #dbeafe 100%);
+      overflow: auto !important;
+    }
+    #hearts-bg {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .floating-heart {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 29s-13-8.35-13-17A7 7 0 0 1 16 7a7 7 0 0 1 13 5c0 8.65-13 17-13 17z" fill="%23f472b6"/></svg>') no-repeat center/contain;
+      opacity: 0.16;
+      animation: floatHeart 12s linear infinite;
+    }
+    @keyframes floatHeart {
+      0% { transform: translateY(0) scale(1) rotate(-8deg); opacity: 0.16; }
+      50% { opacity: 0.28; }
+      100% { transform: translateY(-80vh) scale(1.1) rotate(8deg); opacity: 0; }
+    }
+    .love-letter-animate {
+      animation: letter-fade-float 1.3s cubic-bezier(.22,1,.36,1) forwards;
+      opacity: 0;
+      transform: translateY(40px) scale(0.98);
+      box-shadow: 0 0 0 0 #f472b6;
+      max-width: 98vw;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+      z-index: 2;
+    }
+    .love-illustration {
+      width: 60px;
+      margin: 0 auto 12px auto;
+      display: block;
+    }
+    .love-letter-text {
+      font-family: inherit;
+      font-size: 1.15em;
+      color: #374151;
+      text-align: left;
+      white-space: pre-line;
+      margin-bottom: 24px;
+    }
+    .sent-with-love {
+      font-family: 'Pacifico', cursive, sans-serif;
+      color: #f472b6;
+      font-size: 1.1em;
+      margin-top: 18px;
+      text-align: right;
+    }
+    @media (max-width: 600px) {
+      .love-letter-animate {
+        padding: 6vw 2vw !important;
+        font-size: 1em;
+        max-width: 99vw;
+        max-height: 88vh;
+      }
+      .love-illustration {
+        width: 44px;
+        margin-bottom: 8px;
+      }
+    }
+    @keyframes letter-fade-float {
+      0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.98);
+        box-shadow: 0 0 0 0 #f472b6;
+      }
+      40% {
+        opacity: 1;
+        transform: translateY(-8px) scale(1.04);
+        box-shadow: 0 0 32px 8px #f472b6;
+      }
+      70% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        box-shadow: 0 0 16px 4px #f472b6;
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        box-shadow: 0 0 0 0 #f472b6;
+      }
+    }
+    .back-btn {
+      display: inline-block;
+      margin-bottom: 24px;
+      background: #f472b6;
+      color: #fff;
+      border: none;
+      border-radius: 24px;
+      padding: 10px 24px;
+      font-size: 1.1em;
+      font-family: inherit;
+      cursor: pointer;
+      box-shadow: 0 2px 12px rgba(244,114,182,0.15);
+      transition: background 0.2s;
+    }
+    .back-btn:hover {
+      background: #be185d;
+    }
+  </style>
+</head>
+<body>
+  <div id="hearts-bg"></div>
+  <div class="love-letter-animate bg-white rounded-lg shadow-lg max-w-md p-8 text-center">
+    <img src="data:image/svg+xml;utf8,<svg width='60' height='60' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M16 29s-13-8.35-13-17A7 7 0 0 1 16 7a7 7 0 0 1 13 5c0 8.65-13 17-13 17z' fill='%23f472b6'/></svg>" alt="Heart" class="love-illustration">
+    <button class="back-btn" onclick="window.history.back()">← Back</button>
+    <h2 class="text-3xl font-semibold text-pink-600 mb-4">To My Babyyyy</h2>
+    <p class="love-letter-text">
+     Hey, I think your cute.❤️
+I wanna start this with 
+ hehehehe
+hiii my babyyyyyyyyy my beautiful lady
+i love this so much first of all i thought ki ill write something to my baby but i was like “nahi yaar hamesha tho karta hu yeh aaj kuch alag karte hai”
+so let’s get into this 
+I love you so much yashika you’ve made my world brighter baby  and every day since you’ve been my reason to smile my little babyy, and my heart’s home.
+
+You just dont know how much i love you yashika you cant even ever imagine the love i have for you -unmatchable my princess your smile your face your eyes your lips everything in you is just so perfect. i consider myself the luckiest man on this earth to have a girlfriend like you who’s extremely beautiful and smokingly hot and so fucking cute agghhhh. i love your smile i love it when you laugh makes me so happy na. everytime i see your texts or photos my heart skips a beat and says “is chutiye ko aisa bandi mili hai?” haaha but no genuinely my heart my brain both loves you 
+
+i dont care about me my self respect my worth value blah blah blah when its you yashika i dont mind devaluing myself to the lowest for you coz i know how youre with me how much you love me and even respect me. Im here to do anything for you yashika anything you’re literally the best thing happened or will ever happen to me my love 
+
+i just want you to come to bangalore soon atp coz i can already jump with excitement thinking you’ll be here soon (yes i know you’ll be nlsiu) we gonna have so much fun we’ll go on cute dates go cafe hopping l i’ll take you out on rides shopping take care of you more than anything and everything and so muchhhhh yashika i just wanna kiss you so bad rn na MUAHHHHHHHH MY BABBBYYYYY we’re such a good jodi being in a online rs i love everything about us the late night calls the morning texts facetimes (we doing it 😝😝) and also we arguing who love who more (obviously its me 🤙🏻🤙🏻)ehhehe you’re the best baby the fucking best i wanna thankyou for everything you’ve did to me for the person iam today yashika 
+im a complete mess yashika no shi wait i was a mess now my baby has fixed me 
+
+you deserve this world baby and im gonna give you that world i’ll love you till my death will ask god for you up there also will take care of you more than anything will make coffee’s for you feed you with my own hand and most importantly i will never be rude to you i will never raise my voice at you i will be that nerd dumb guy with you i would rather kill myself than stop loving you yashika 
+i just love you unconditionally and so do you to me you know whenever you call me baba i’m just in tears each and everytime i love you so much na and i wanna tell this  i’ll always tell you this “no one can love yashika the way ruzzain loves her” yaaarr we were made for each other im telling you
+i wanna tell you how fucking high your standards are how fucking precious you are to me and how bloody worthy you are in my life love you’re not just my girlfriend you’re my princess my bestest friend my world you’re my star who just lit this ruzzain like noone could ever do my little puppy eyed baby you are but you know im a lil upset with you (you never reply to my comments yaar aap delete hi kar dete ho thoda sa bura lagta hai bas 😔) 
+but its okayyyy i love it when you let it out infront of me and just not suppress anything around me 
+i’m sorry if i hurt you or make you feel sad or angry as well i’ll genuinely get better for you baby pakka
+i just love you itnaaaaaaaaaaaaaaaaaaaa naaaa i loveeeeeee youuuuuuuuuuuuu and i’ll always do i care for you yashika you’re my everything baby
+
+i’ll go out of my limits to see you happy meri jaan i’ll do anything for you i’ll make you live like a  child i’ll spoil you so much by everything. 
+i’ll make sure you live a very happy life when w me i’ll make sure you enjoy my company i’ll make sure to bring a smile on your face each and every fucking day by even doing the things which are humanly impossible (yeah oneof the reason to get successful ruzzain) making you my americano and get you flowers take you out at a book store mcddddddd kyunki you like it and yeah obviously my hand will be on your waist all the time 
+hehehe 
+
+okay yeah i can do a lot 
+idk how and why but i’m a lil too much confident when it’s about you and its coz of you
+i love you more than words can even express yashika you’re my prettiest princess ekdummmmmm hehehehe my lil kitten you are baby MUAHHHHHHHH
+yours and only yours . ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+
+    </p>
+    <div class="sent-with-love">-Ruzzain 💌</div>
+  </div>
+  <script>
+    // Floating hearts background
+    const bg = document.getElementById('hearts-bg');
+    for (let i = 0; i < 14; i++) {
+      const heart = document.createElement('div');
+      heart.className = 'floating-heart';
+      heart.style.left = `${Math.random() * 100}%`;
+      heart.style.bottom = `-${Math.random() * 20 + 10}px`;
+      heart.style.animationDelay = `${Math.random() * 10}s`;
+      heart.style.opacity = 0.12 + Math.random() * 0.12;
+      bg.appendChild(heart);
+    }
+  </script>
+</body>
+</html>

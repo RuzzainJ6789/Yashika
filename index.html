@@ -1,0 +1,51 @@
+<!-- index.html -->
+  <file path="index.html" contentType="text/html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Yashika - My Heart</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col items-center text-center text-gray-800">
+  <div id="animated-bg"></div>
+  <div id="canvas-container" class="relative z-10"></div>
+  <button id="floating-heart" aria-label="Send Love">
+    <span>💖</span>
+  </button>
+
+  <div id="message" class="mt-8 p-4 max-w-lg">
+    <h1 class="text-4xl font-bold text-pink-600 mb-4">To My Dearest Yashika</h1>
+    <p id="typed-message" class="text-lg"></p>
+    <button id="love-letter-btn" class="mt-4 bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 transition" onclick="window.location.href='love-letter.html'">Open Love Letter</button>
+    <button onclick="window.location.href='games.html'" class="mt-4 bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-600 transition">Play a Game!</button>
+  </div>
+  <div id="gallery" class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl">
+    <div class="bg-white p-4 rounded-lg shadow-lg gallery-item">
+      <img src="img/memory1.GIF" alt="Memory 1" class="w-full h-48 object-cover rounded">
+      <p class="mt-2 text-sm">The day we started talking—my heart hasn’t stopped smiling since.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg gallery-item">
+      <img src="img/memory2.GIF" alt="Memory 2" class="w-full h-48 object-cover rounded">
+      <p class="mt-2 text-sm">Your smile lights up my world, even through a screen.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg gallery-item">
+      <img src="img/memory3.GIF" alt="Memory 3" class="w-full h-48 object-cover rounded">
+      <p class="mt-2 text-sm">A new memory to cherish forever.</p>
+    </div>
+  </div>
+  <div id="muah-text" class="muah-hidden"></div>
+  <footer class="w-full py-3 mt-8 bg-pink-100/80 text-pink-600 text-center text-sm shadow-inner">
+    Made with ❤️ for Yashika &middot; <span id="footer-year"></span>
+  </footer>
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
+  </file>

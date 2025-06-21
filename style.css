@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(to bottom, #1e3a8a, #7dd3fc);
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#canvas-container {
+  position: relative;
+  top: 10%;
+  width: 100vw;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+canvas {
+  position: relative;
+  left: 0;
+  transform: none;
+  display: block;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+#message {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+  z-index: 4;
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #fff;
+  font-size: 1.2em;
+  background: rgba(30, 58, 138, 0.7);
+  border-radius: 12px;
+  padding: 16px 24px;
+}
+
+#message.show {
+  opacity: 1;
+}
+
+#gallery img {
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(30,58,138,0.2);
+}
+
+#gallery img:hover {
+  transform: scale(1.1);
+}
+
+#love-letter {
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: all 0.5s ease;
+  background: rgba(255,255,255,0.9);
+  color: #1e3a8a;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 2px 12px rgba(30,58,138,0.15);
+  z-index: 4;
+}
+
+#love-letter.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#love-letter.hidden {
+  display: none;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #canvas-container {
+    height: 220px;
+  }
+  #message, #love-letter {
+    font-size: 1em;
+    padding: 12px 8px;
+    max-width: 95vw;
+  }
+}
