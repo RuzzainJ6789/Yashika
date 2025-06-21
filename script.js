@@ -2,7 +2,7 @@ let heartSize = 100;
 let pulse = 0;
 let clicked = false;
 let heartPulse = 0;
-const messageText = "HIii my BABYYY I hope you like this ji well the time rn is 6:56 AM June 21…and i wanna start with love You’re my baby my princess my world my little muse my snuggle bunny my everything ..okay love here’s a big kiss (click the heart) not happy here are a lot of more kisses (click the heart on the bottom right) HEEHHE this is nothing baby I wanna give you my everything meri jaan…I love you wifey this is a small gift from your bastard…(there’s more baby)";
+const messageText = "HIii my BABYYY I hope you like this ji well the time rn is 6:56 AM June 21…and i wanna start with love You’re my baby my princess my world my little muse my snuggle bunny my everything ..okay love here’s a big kiss (click the heart) not happy here are a lot of more kisses (spam click the heart on the bottom right) HEEHHE this is nothing baby I wanna give you my everything meri jaan…I love you wifey this is a small gift from your bastard…(there’s more baby)";
 let stars = [];
 
 // Floating love notes
